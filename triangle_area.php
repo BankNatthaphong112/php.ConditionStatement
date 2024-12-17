@@ -67,5 +67,11 @@
         ?>
         <a href="tringle_area_form.php">กลับไปยังหน้าฟอร์ม</a>
     </div>
+    <?php
+    function triangleArea($h,$b){
+        $a = 0.5 * $h * $b;
+        return $a;
+    }
+    ?>
 </body>
 </html>
